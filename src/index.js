@@ -12,6 +12,4 @@ app.get("/", (req, res) => {
   res.json({ message: "Bienvenue sur mon serveur Express" });
 });
 
-app.listen(PORT, () => {
-  console.log(`Serveur lancé sur http://localhost:${PORT}`);
-});
+app.listen(PORT, () => {});
